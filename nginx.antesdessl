@@ -4,7 +4,6 @@ server {
         server_name cms.potencia.mx;
         root /var/www/vhosts/cms.potencia.mx/public;
         index index.php index.html index.htm;
-        add_header 'Access-Control-Allow-Origin' '*';
         access_log /var/www/vhosts/cms.potencia.mx/logs/nginx/access.log;
         error_log /var/www/vhosts/cms.potencia.mx/logs/nginx/error.log warn;
 
